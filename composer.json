@@ -1,0 +1,25 @@
+{
+    "name": "delaakakpo/moolre-payment-backend",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MoolrePayments\\": "src/"
+        },
+        "classmap": [],
+        "psr-0": {},
+        "files": [],
+        "exclude-from-classmap": []
+    },
+    "authors": [
+        {
+            "name": "Dela Akakpo",
+            "email": "delprane14@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "vlucas/phpdotenv": "^5.5",
+        "ext-pdo": "*",
+        "corneltek/pux": "^1.6"
+    }
+}
